@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+body{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.btn-open-modal{
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  outline: none !important;
+}
+
+.btn-modal-react{
+  background: #0D93DA;
+  border: 1px solid #0D93DA;
+}
+
+.btn-modal-angular{
+  background: #DA0D0D;
+  border: 1px solid #DA0D0D;
+}
+
+.btn-modal-vue{
+  background: #04AC8F;
+  border: 1px solid #04AC8F;
+}
+
+h1{
+  text-align: center;
+}
+
+#root {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  color: #333;
+}
+
+.link-user {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.box-search-member{
+  padding: 20px;
+  text-align: center;
+}
+
+.search-member{
+  width: 320px;
+  padding: 10px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 20px;
+  outline: none !important;
+}
+
+.main-loading{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 100px 40px;
+  text-align: center;
+}

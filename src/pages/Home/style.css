@@ -1,0 +1,52 @@
+.container-home{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.tit-frame-home{
+    padding: 40px;
+}
+
+.container-home .box-logo-home{
+    background: #eee;
+    border-radius: 20px;
+}
+
+.container-home .logo-js{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.container-home a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.container-home .logo-js img{
+    width: auto;
+    height: 80px;
+}
+
+.container-home .logo-js2{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+}
+
+.container-home .logo-js2 img{
+    width: auto;
+    height: 54px;
+}

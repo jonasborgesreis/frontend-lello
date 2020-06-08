@@ -1,0 +1,73 @@
+.container-list-user-react{
+    margin: 0 auto;
+    padding: 30px;
+    width: 1180px;
+    display: block;
+}
+
+.container-list-user-react .container-user-react{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    box-sizing: border-box;
+    align-content: space-between
+}
+
+.container-list-user-react .container-user-react li{
+    background: #eee;
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.container-list-user-react .container-user-react .img-avatar{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.container-list-user-react .container-user-react .img-avatar img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.container-list-user-react .container-user-react .tit-user{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 15px;
+    box-sizing: border-box;
+}
+
+.container-list-user-react .logo-js{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.container-list-user-react .logo-js img{
+    width: auto;
+    height: 80px;
+}
+
+.btn-react{
+    width: 200px;
+    padding: 15px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: #0D93DA;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    text-transform: uppercase;  
+}
+
+.btn-react:hover{
+    color: #fff;
+    text-decoration: none;
+}
